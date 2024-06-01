@@ -1,0 +1,46 @@
+.step {
+    margin-top: 120px;
+    min-height: 140vh;
+
+    .error {
+        color: $bg-dark;
+        font-size: 48px;
+        font-weight: 600;
+    }
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        gap: 56px;
+        justify-content: center;
+        width: 95%;
+        min-height: 245px;
+        margin-left: 40px;
+        margin-top: 48px;
+        box-shadow: #0000001F 5px 5px 5px 5px;
+        border-radius: 5px;
+
+        .text {
+
+            .no {
+                color: $bg-dark;
+                font-size: $size;
+                font-size: 600;
+            }
+
+            .yellow {
+                width: 86px;
+                border: 3px solid #FFCE50;
+                margin-top: 24px;
+            }
+
+            .not {
+                color: $bg-grey;
+                font-size: 16px;
+                font-weight: 400;
+                max-width: 600px;
+                margin-top: 24px;
+            }
+        }
+    }
+}

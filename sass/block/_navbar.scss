@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70px;
+
+    &__text {
+
+        p {
+            color: $bg-black;
+            font-size: 24px;
+            font-weight: 400;
+        }
+    }
+
+    &__collection {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        a {
+            color: $bg-black;
+            font-size: 16px;
+            font-weight: 500;
+
+            &:hover {
+                color: #6c6464;
+            }
+        }
+    }
+}

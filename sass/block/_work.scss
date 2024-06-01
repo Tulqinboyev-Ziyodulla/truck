@@ -1,0 +1,66 @@
+.work {
+    margin-top: 120px;
+
+    &__text {
+
+        .bold {
+            color: $bg-dark;
+            font-size: 48px;
+            font-weight: 600;
+        }
+
+        .gold {
+            color: $bg-grey;
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: 32px;
+            max-width: 490px;
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        gap: 30px;
+
+        .work__card {
+            margin-top: 56px;
+            width: 393px;
+            min-height: 440px;
+            box-shadow: #0000001F 5px 5px 5px;
+            border-radius: 10px;
+
+            p {
+                margin-left: 20px;
+            }
+
+            .of {
+                color: $bg-dark;
+                font-size: $size;
+                font-weight: 600;
+                margin-top: 24px;
+            }
+
+            .that {
+                color: $bg-grey;
+                font-size: 16px;
+                font-weight: 400;
+                max-width: 300px;
+                margin-top: 16px;
+            }
+
+            .number {
+                color: $bg-dark;
+                font-size: 16px;
+                font-weight: 600;
+                margin-top: 32px;
+            }
+
+            .yellow {
+                border: 3px solid #FFCE50;
+                width: 86px;
+                margin-top: 10px;
+                margin-left: 20px;
+            }
+        }
+    }
+}

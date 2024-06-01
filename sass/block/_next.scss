@@ -1,0 +1,39 @@
+.next {
+
+    &__img {
+        margin-top: 67px;
+    }
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+        .next__card {
+            display: flex;
+            justify-content: center;
+            margin-top: 70px;
+            gap: 40px;
+
+            img {
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+
+            .send {
+                color: $bg-dark;
+                font-size: $size;
+                font-weight: 600;
+            }
+
+            .join {
+                color: $bg-grey;
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 16px;
+                max-width: 300px;
+            }
+        }
+    }
+}
